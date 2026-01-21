@@ -1,0 +1,174 @@
+@media (max-width: 1200px) {
+  .cart {
+    margin-left: 10px;
+    gap: 4px;
+  }
+  .main {
+    gap: 0px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .image {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .leftImg {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .rightImg {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .footer {
+    padding: 0 40px;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .footer-col {
+    padding-left: 0;
+    width: 45%;
+    text-align: center;
+  }
+
+  .payment-img {
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .footer-bottom,
+  .foot {
+    text-align: center;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .brands .close-btn {
+    display: block;
+  }
+  .brands {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0;
+    transition: all 0.3s;
+    background-color: black;
+    z-index: 999;
+    padding-top: 50px;
+    padding-right: 60px;
+  }
+  .brands a {
+    color: white;
+    width: 100%;
+    padding-left: 10px;
+  }
+  .input {
+    display: none;
+  }
+  .main {
+    justify-content: space-between;
+  }
+  .cart a,
+  .cart .phone,
+  .cart span {
+    display: none;
+  }
+  .cart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .menu {
+    display: block;
+  }
+  .magnifier {
+    display: block;
+  }
+  .navlinks p {
+    display: none;
+  }
+  .card {
+    flex: 1 1 calc(50% - 16px); /* 2 per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    margin-top: 80px;
+    padding: 0 15px;
+  }
+
+  .leftImg {
+    width: 100%;
+  }
+
+  .rightImg {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .img1,
+  .img2 {
+    width: 100%;
+  }
+
+  .dots {
+    bottom: 15px;
+  }
+}
+
+.footer {
+  padding: 0 20px;
+}
+
+.footer-top {
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.footer-col {
+  width: 100%;
+  padding-left: 0;
+}
+
+.social-links {
+  justify-content: center;
+}
+
+.payment-img {
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.footer-bottom,
+.foot {
+  font-size: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+@media (max-width: 455px) {
+  .logo img {
+    padding: 0px;
+  }
+  .cart {
+    gap: 3px;
+  }
+}
