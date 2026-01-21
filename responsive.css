@@ -104,7 +104,7 @@
     display: none;
   }
   .card {
-    flex: 1 1 calc(50% - 16px); /* 2 per row */
+    flex: 1 1 calc(50% - 16px); 
   }
 }
 
@@ -133,35 +133,7 @@
   }
 }
 
-.footer {
-  padding: 0 20px;
-}
 
-.footer-top {
-  align-items: center;
-  text-align: left;
-}
-
-.footer-col {
-  width: 100%;
-  padding-left: 0;
-}
-
-.social-links {
-  justify-content: center;
-}
-
-.payment-img {
-  max-width: 150px;
-  margin: 10px auto;
-}
-
-.footer-bottom,
-.foot {
-  font-size: 12px;
-  padding: 12px;
-  text-align: center;
-}
 
 @media (max-width: 455px) {
   .logo img {
